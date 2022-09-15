@@ -16,7 +16,7 @@ interface CoffeeLevelUpdateAction {
     amount: number
 }
 
-export type CoffeeLevelAction = CoffeeLevelUpdateAction | CoffeeLevelInitAction
+type CoffeeLevelAction = CoffeeLevelInitAction | CoffeeLevelUpdateAction
 
 export const updateCoffeeLevel = (amount: number) => {
     return (dispatch: Dispatch<CoffeeLevelAction>) => {

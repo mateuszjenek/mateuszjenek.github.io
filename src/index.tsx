@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import { LocalCofeeTank } from './infrastructure/local_coffee_tank';
 import { Provider } from 'react-redux';
 import { Application } from './presentation/application';
 import { store } from './application/store';
@@ -9,8 +8,6 @@ import { store } from './application/store';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
-
-const coffeeTank = new LocalCofeeTank(5)
 
 root.render(
   <React.StrictMode>

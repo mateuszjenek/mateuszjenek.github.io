@@ -1,0 +1,8 @@
+.social-icon {
+    color: white;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    color: #808e9b;
+}

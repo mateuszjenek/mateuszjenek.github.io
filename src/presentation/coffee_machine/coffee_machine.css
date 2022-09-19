@@ -1,0 +1,4 @@
+.coffee-machine-img {
+    image-rendering: pixelated; 
+    width: -webkit-fill-available;
+}

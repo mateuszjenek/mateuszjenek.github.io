@@ -1,0 +1,213 @@
+{
+    "firstName": "Mateusz",
+    "lastName": "Jenek",
+    "title": "Backend software engineer",
+    "about": "Cloud-oriented software engineer with expertise in Go, Kubernetes, and distributed systems. Currently building Platform Orchestrator and developer experience tools at Humanitec. Specialized in building scalable cloud infrastructure, automated testing platforms, and data lake solutions. Experience with AWS, Azure, GCP, and multi-cloud environments.",
+    "socials": [
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/mateuszjenek/"
+        },
+        {
+            "platform": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mateusz-jenek/"
+        }
+    ],
+    "personal_projects": [
+        {
+            "name": "Github personal page",
+            "url": "https://mateuszjenek.github.io",
+            "description": "Simple react web application that is my digital business card."
+        },
+        {
+            "name": "Warehouse management system",
+            "url": "https://github.com/mateuszjenek/bigger-brew",
+            "description": "The system created as part of a university project for managing amount of items in a warehouse. Application authorizes users via OAuth 2 protocol and allows users to work in online and offline mode. The system consists of three elements: a mobile application written in Flutter, a warehouse management service written in the GoLang and an automated infrastructure based on Google Cloud."
+        },
+        {
+            "name": "Content Management System for local cattery",
+            "url": "https://github.com/mateuszjenek/CMS-Furlove",
+            "description": "The content management system designed for a local cattery. By implementing an administration panel, clients can easily add and manage kittens, cats, partners and posts. Everything is connected to a remote SQL database where all data is stored."
+        },
+        {
+            "name": "Moblie planner for managing university classes",
+            "url": "https://github.com/mateuszjenek/Get-Shit-Done",
+            "description": "Android application that helped me manage my schedule during university time. It allows adding tasks for particular days and regular classes including their place and lecturer name."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Go",
+            "category": "Languages"
+        },
+        {
+            "name": "Kotlin",
+            "category": "Languages"
+        },
+        {
+            "name": "TypeScript",
+            "category": "Languages"
+        },
+        {
+            "name": "Python",
+            "category": "Languages"
+        },
+        {
+            "name": "Java",
+            "category": "Languages"
+        },
+        {
+            "name": "Kubernetes",
+            "category": "Cloud & Infrastructure"
+        },
+        {
+            "name": "AWS",
+            "category": "Cloud & Infrastructure"
+        },
+        {
+            "name": "Azure",
+            "category": "Cloud & Infrastructure"
+        },
+        {
+            "name": "Google Cloud",
+            "category": "Cloud & Infrastructure"
+        },
+        {
+            "name": "Terraform",
+            "category": "DevOps"
+        },
+        {
+            "name": "Ansible",
+            "category": "DevOps"
+        },
+        {
+            "name": "Helm",
+            "category": "DevOps"
+        },
+        {
+            "name": "Docker",
+            "category": "DevOps"
+        },
+        {
+            "name": "PostgreSQL",
+            "category": "Datastores"
+        },
+        {
+            "name": "RabbitMQ",
+            "category": "Queueing Systems"
+        },
+        {
+            "name": "Kafka",
+            "category": "Queueing Systems"
+        },
+        {
+            "name": "MinIO",
+            "category": "Datastores"
+        },
+        {
+            "name": "Alibaba Cloud",
+            "category": "Cloud & Infrastructure"
+        },
+        {
+            "name": "GitHub Actions",
+            "category": "DevOps"
+        },
+        {
+            "name": "Datadog",
+            "category": "Observability"
+        },
+        {
+            "name": "Robot framework",
+            "category": "Testing"
+        },
+        {
+            "name": "React",
+            "category": "Frameworks"
+        },
+        {
+            "name": "Flutter",
+            "category": "Frameworks"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Humanitec",
+            "role": "Backend software engineer",
+            "duration": "February 2023 - now",
+            "description": "Contribute to the design, development, and maintenance of core features for Humanitec's Platform Orchestrator, a microservice-based backend and Kubernetes Operator powering scalable cloud environments. Lead initiatives to enhance developer experience by building a CLI tool, VS Code extension, and Terraform provider—enabling seamless and efficient interaction with the platform. Collaborate with enterprise architects worldwide to adapt the Platform Orchestrator to their specific environments, ensuring smooth integration and successful adoption. Open source contributions: terraform-provider-humanitec, terraform-provider-platform-orchestrator, vscode-humanitec, resource-packs-aws.",
+            "tech_stack": [
+                "GoLang",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "AWS",
+                "Robot framework",
+                "Datadog",
+                "Terraform",
+                "Typescript"
+            ]
+        },
+        {
+            "company": "Intel",
+            "role": "Cloud Software Engineering Leader",
+            "duration": "May 2022 - February 2023",
+            "description": "Led a development team building a platform for automated testing of cloud workloads based on performance and architectural requirements. The platform was used internally by Intel to tune chipsets for customer-specific workloads and to validate cutting-edge (including pre-release) cloud solutions. Designed and delivered solutions for automated cloud infrastructure and workload provisioning, ensuring scalability, reliability, and reproducibility. Introduced Scrum methodology, coordinated delivery schedules, and synchronized efforts across multiple engineering teams to maintain code quality and accelerate release cycles.",
+            "tech_stack": [
+                "GoLang",
+                "Ansible",
+                "Helm",
+                "Spark",
+                "Presto",
+                "Kubernetes",
+                "AWS",
+                "Alibaba Cloud",
+                "Terraform",
+                "MinIO",
+                "Hive-Metastore",
+                "Python"
+            ]
+        },
+        {
+            "company": "Intel",
+            "role": "Cloud Software Engineering",
+            "duration": "March 2021 - May 2022",
+            "description": "Developed and optimized data lake solutions and performance testing frameworks using Intel server platforms. Focused on benchmarking workloads with industry-standard suites (TPC-H, TPC-DS) to evaluate and improve system performance across distributed environments.",
+            "tech_stack": [
+                "GoLang",
+                "Kubernetes",
+                "Ansible",
+                "Helm",
+                "Docker",
+                "Flink",
+                "Hudi",
+                "MinIO",
+                "Hive-Metastore",
+                "Kafka"
+            ]
+        },
+        {
+            "company": "Intel",
+            "role": "Cloud Software Engineer Intern",
+            "duration": "May 2019 - March 2021",
+            "description": "Contributed to multiple projects across software development, DevOps, and cloud infrastructure automation. Developed new features and optimized microservice-based systems for Intel's SGX project. Automated cloud workflows, supported PoCs for data center optimization, and helped develop management systems for distributed compute environments.",
+            "tech_stack": [
+                "AWS",
+                "Azure",
+                "Ansible",
+                "Docker",
+                "Terraform",
+                "TeamCity",
+                "OpenStack",
+                "GORM",
+                "PostgreSQL",
+                "GitLab CI",
+                "Gradle",
+                "Java",
+                "Scala",
+                "GoLang",
+                "Kotlin",
+                "C"
+            ]
+        }
+    ]
+}

@@ -1,32 +1,37 @@
 :root[data-theme="dark"] {
-  --profile-bg: #1a1a1a;
-  --profile-text: #e0e0e0;
-  --profile-link: #6ba3d8;
-  --profile-link-hover: #8bb8e8;
-  --profile-key: #c0c0c0;
-  --profile-string: #d0d0d0;
-  --profile-number: #c0c0c0;
-  --profile-boolean: #c0c0c0;
-  --profile-null: #888888;
-  --profile-bracket: #a0a0a0;
+  --profile-bg: #1c1c1c;
+  --profile-text: #f6f3e8;
+
+  --profile-link: #8ac6f2;
+  --profile-link-hover: #b3dcff;
+
+  --profile-key: #cae682;
+  --profile-string: #95e454;
+  --profile-number: #e5786d;
+  --profile-boolean: #8ac6f2;
+  --profile-null: #b4b4b4;
+  --profile-bracket: #c6c6c6;
+
   --toggle-track: #2a2a2a;
   --toggle-thumb: #4a4a4a;
-  --toggle-icon-color: #e0e0e0;
+  --toggle-icon-color: #f6f3e8;
 }
 
 :root[data-theme="light"] {
-  --profile-bg: #f5f5f5;
-  --profile-text: #333333;
-  --profile-link: #0066cc;
-  --profile-link-hover: #0052a3;
-  --profile-key: #444444;
-  --profile-string: #444444;
-  --profile-number: #444444;
-  --profile-boolean: #444444;
-  --profile-null: #777777;
-  --profile-bracket: #666666;
+  --profile-bg: #ffffff;
+  --profile-text: #2b2b2b;
+
+  --profile-link: #005faf;
+  --profile-link-hover: #004b8a;
+
+  --profile-key: #005f87;
+  --profile-string: #008700;
+  --profile-number: #af0000;
+  --profile-boolean: #5f00af;
+  --profile-null: #6c6c6c;
+  --profile-bracket: #4e4e4e;
+
   --toggle-track: #b3d9ff;
   --toggle-thumb: #ffffff;
   --toggle-icon-color: #4a90e2;
 }
-

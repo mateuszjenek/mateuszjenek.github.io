@@ -23,11 +23,6 @@ export function fetchProfile(): Profile {
                 url: String(p.url),
                 description: String(p.description)
             })) : [],
-        skills: Array.isArray(record.skills)
-            ? record.skills.map((s: AnyRecord) => ({
-                name: String(s.name),
-                category: String(s.category)
-            })) : [],
         experience: Array.isArray(record.experience)
             ? record.experience.map((e: AnyRecord) => ({
                 company: String(e.company),
@@ -35,6 +30,11 @@ export function fetchProfile(): Profile {
                 duration: String(e.duration),
                 description: String(e.description),
                 tech_stack: Array.isArray(e.tech_stack) ? e.tech_stack.map(String) : undefined
+            })) : [],
+        skills: Array.isArray(record.skills)
+            ? record.skills.map((s: AnyRecord) => ({
+                name: String(s.name),
+                category: String(s.category)
             })) : [],
     };
 }

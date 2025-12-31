@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A modern, clean personal portfolio website built with Next.js, showcasing professional experience, skills, projects, and social links. The site features a clean architecture approach with domain-driven design principles, theme support (dark/light mode), and automated deployment to GitHub Pages.
 
-First, run the development server:
+## 🎯 Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This project serves as a digital business card and professional portfolio, displaying:
+- Professional experience and work history
+- Technical skills organized by category
+- Personal projects with descriptions and links
+- Social media profiles and contact information
+- About section with professional summary
+
+## 🏗️ Architecture
+
+The project follows a **clean architecture** pattern with clear separation of concerns:
+
+```
+features/profile/
+├── domain/          # Business entities and types
+├── application/     # Use cases and business logic
+├── infrastructure/  # Data sources and external integrations
+└── presentation/   # UI components, pages, and view models
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This structure ensures maintainability, testability, and separation between business logic and presentation concerns.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js 20+ 
+- npm (or yarn/pnpm/bun)
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+```bash
+git clone https://github.com/mateuszjenek/mateuszjenek.github.io.git
+cd mateuszjenek.github.io
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Deploy on Vercel
+3. Run the development server:
+```bash
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production (outputs to `./out`)
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🎨 Customization
+
+### Updating Profile Data
+
+Edit the profile information in `assets/mjenek.json`. The JSON structure includes:
+
+- `firstName`, `lastName`, `title` - Basic information
+- `about` - Professional summary
+- `socials` - Array of social media links
+- `personal_projects` - Array of project objects
+- `skills` - Array of skills with categories
+- `experience` - Array of work experience entries
+
+## 📦 Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
+
+### Deployment Process
+
+1. Push changes to `main` branch
+2. GitHub Actions workflow (`publish.yml`) triggers automatically
+3. Builds the Next.js static export
+4. Deploys to GitHub Pages
+
+The site is available at: [https://mateuszjenek.github.io](https://mateuszjenek.github.io)
+
+
+
+---
+
+Built with ❤️ by Mateusz Jenek

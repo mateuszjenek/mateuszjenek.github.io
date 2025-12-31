@@ -10,6 +10,6 @@ export type Profile = {
     about: string;
     socials: SocialLink[];
     personal_projects: Project[];
-    skills: Skill[];
     experience: Experience[];
+    skills: Skill[];
 }
